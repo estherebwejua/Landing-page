@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Designers | StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="designers-page">
+
+    <header class="navbar">
+        <a href="dashboard.html" class="logo">StyleSphere<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="dashboard.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="designers.html" class="active">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html" class="signup-button">My Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="designers-hero">
+            <p class="eyebrow">MEET THE CREATORS</p>
+            <h1>Meet the Minds Behind the Style.</h1>
+            <p>
+                Discover talented designers, explore their unique creations,
+                and find the people behind your favourite fashion pieces.
+            </p>
+
+            <a href="fashion-academy.html" class="shop-button">
+                Become a Designer
+            </a>
+        </section>
+
+        <section class="designers-section">
+            <div class="section-heading">
+                <p class="eyebrow">OUR CREATIVE COMMUNITY</p>
+                <h2>Discover Our Designers</h2>
+                <p>Every designer has a story. Find one that inspires you.</p>
+            </div>
+
+            <div class="designer-search">
+                <input
+                    type="search"
+                    id="designerSearch"
+                    placeholder="Search by designer name or specialty..."
+                    aria-label="Search designers"
+                >
+            </div>
+
+            <div class="designers-grid" id="designersGrid">
+
+                <article class="designer-card">
+                    <img
+                        src="images/clothing (3).jpg"
+                        alt="Ankara fashion design"
+                    >
+                    <div class="designer-info">
+                        <p class="designer-specialty">African Fashion</p>
+                        <h3>Amara Designs</h3>
+                        <p>Creative Ankara outfits made for bold, confident style.</p>
+                        <a href="designer-profile.html?designer=amara">
+                            View Profile →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="designer-card">
+                    <img
+                        src="images/Bags (3).jpg"
+                        alt="Designer handbag collection"
+                    >
+                    <div class="designer-info">
+                        <p class="designer-specialty">Bags & Accessories</p>
+                        <h3>Amanda Luxe</h3>
+                        <p>Elegant accessories that complete every outfit.</p>
+                        <a href="designer-profile.html?designer=amanda">
+                            View Profile →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="designer-card">
+                    <img
+                        src="images/clothing (27).jpg"
+                        alt="Modern fashion outfit"
+                    >
+                    <div class="designer-info">
+                        <p class="designer-specialty">Ready-to-Wear</p>
+                        <h3>Urban Threads</h3>
+                        <p>Modern everyday fashion with a clean, timeless feel.</p>
+                        <a href="designer-profile.html?designer=urban">
+                            View Profile →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <p id="noDesignersMessage" hidden>
+                No designers match your search. Try another name or specialty.
+            </p>
+        </section>
+
+        <section class="designer-cta">
+            <h2>Your Creativity Deserves to Be Seen.</h2>
+            <p>
+                Join StyleSphere and introduce your fashion brand to a wider
+                audience.
+            </p>
+            <a href="dashboard.html" class="shop-button">Join StyleSphere</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="dashboard.html" class="logo">StyleSphere<span>.</span></a>
+        <p>Where creativity meets personal style.</p>
+
+        <div class="footer-links">
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="designers.html">Designers</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>© 2026 StyleSphere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

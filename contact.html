@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+    <header class="navbar">
+        <a href="dashboard.html" class="logo">StyleSphere<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="dashboard.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html" class="signup-button">My Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+            <h1>Let's Start a Conversation.</h1>
+            <p>
+                Have a question about an order, want to showcase your fashion
+                brand, or need information about training? We're here to help.
+            </p>
+        </section>
+
+        <section class="contact-section">
+
+            <div class="contact-information">
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>How Can We Help?</h2>
+
+                <p class="contact-description">
+                    Tell us what you need. Choose the most relevant topic
+                    in the form, and we'll help you find the right direction.
+                </p>
+
+                <div class="contact-detail">
+                    <div class="contact-icon">✉</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>Use the contact form to send us your enquiry.</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="contact-icon">◇</div>
+                    <div>
+                        <h3>For Designers</h3>
+                        <p>Ask about showcasing your brand on StyleSphere.</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="contact-icon">✧</div>
+                    <div>
+                        <h3>For Students</h3>
+                        <p>Enquire about fashion courses and training programs.</p>
+                    </div>
+                </div>
+
+                <div class="contact-note">
+                    <h3>Let's create something beautiful.</h3>
+                    <p>
+                        StyleSphere brings fashion lovers, designers,
+                        and fashion educators together in one place.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <p class="form-intro">
+                    Fill in the details below to prepare your enquiry.
+                </p>
+
+                <form id="contactForm">
+
+                    <div class="contact-form-row">
+                        <div class="form-field">
+                            <label for="contactName">Full Name</label>
+                            <input
+                                type="text"
+                                id="contactName"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="contactEmail">Email Address</label>
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contactSubject">What is your enquiry about?</label>
+                        <select id="contactSubject" name="subject" required>
+                            <option value="">Choose a topic</option>
+                            <option value="order">Orders and Shopping</option>
+                            <option value="designer">Designer Registration</option>
+                            <option value="training">Fashion Training</option>
+                            <option value="technical">Website Technical Issue</option>
+                            <option value="other">Other Enquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contactMessage">Your Message</label>
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell us how we can help..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit-button">
+                        Send Message →
+                    </button>
+
+                    <p id="contactFeedback" class="contact-feedback" role="status" aria-live="polite"></p>
+
+                    <p class="contact-form-note">
+                        This is a website prototype. Messages are not sent
+                        to an email inbox yet.
+                    </p>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="dashboard.html" class="logo">StyleSphere<span>.</span></a>
+        <p>Where creativity meets personal style.</p>
+
+        <div class="footer-links">
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+        </div>
+
+        <p>© 2026 StyleSphere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

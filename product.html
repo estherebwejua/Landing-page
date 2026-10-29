@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">StyleSphere<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="designers.html">Designers</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="cart.html" class="signup-button">My Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-page">
+
+        <div class="product-breadcrumb">
+            <a href="index.html">Home</a> /
+            <a href="shop.html">Shop</a> /
+            <span>Product Details</span>
+        </div>
+
+        <section class="product-layout">
+
+            <div class="product-gallery">
+                <img
+                    id="detailImage"
+                    src="images/clothing (3).jpg"
+                    alt="Featured fashion product"
+                >
+                <span class="product-badge">STYLESPHERE PICK</span>
+            </div>
+
+            <div class="product-information">
+
+                <p class="eyebrow" id="detailCategory">CLOTHING</p>
+
+                <h1 id="detailName">Ankara Statement Dress</h1>
+
+                <p class="detail-designer">
+                    Designed by <a href="designer-profile.html" id="detailDesigner">Heritage Stitches</a>
+                </p>
+
+                <p class="detail-price" id="detailPrice">₦35,000</p>
+
+                <div class="detail-divider"></div>
+
+                <p class="detail-description" id="detailDescription">
+                    Discover a unique fashion piece selected for people
+                    who love creativity, confidence, and individuality.
+                    Contact the designer for availability and custom options.
+                </p>
+
+                <div class="detail-option">
+                    <label for="productSize">Select Size</label>
+                    <select id="productSize">
+                        <option value="Not applicable">Not applicable</option>
+                        <option value="S">Small (S)</option>
+                        <option value="M">Medium (M)</option>
+                        <option value="L">Large (L)</option>
+                        <option value="XL">Extra Large (XL)</option>
+                    </select>
+                </div>
+
+                <div class="detail-option">
+                    <label for="productQuantity">Quantity</label>
+                    <input
+                        type="number"
+                        id="productQuantity"
+                        min="1"
+                        max="10"
+                        value="1"
+                    >
+                </div>
+
+                <button type="button" id="addToCart" class="detail-cart-button">
+                    Add to Cart →
+                </button>
+
+                <p id="cartMessage" class="form-message"></p>
+
+                <div class="product-benefits">
+                    <p>✓ Discover independent fashion designers</p>
+                    <p>✓ Ask about sizing and availability</p>
+                    <p>✓ Find styles that express your identity</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="product-extra">
+            <h2>Make This Look Your Own</h2>
+            <p>
+                Explore more designs, discover new brands, and find
+                pieces that match your personal style.
+            </p>
+            <a href="shop.html" class="shop-button">Continue Shopping →</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">StyleSphere<span>.</span></a>
+        <p>Where fashion meets individuality.</p>
+
+        <div class="footer-links">
+            <a href="shop.html">Shop</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p class="copyright">© 2026 StyleSphere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

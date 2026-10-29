@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Academy | StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="academy-page">
+
+    <header class="navbar">
+        <a href="#" class="logo">StyleSphere<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="dashboard.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html" class="active">Fashion Academy</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html" class="signup-button">My Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="academy-hero">
+            <p class="eyebrow">LEARN • CREATE • GROW</p>
+            <h1>Turn Your Passion for Fashion into a Skill.</h1>
+            <p>
+                Discover fashion training opportunities, learn new techniques,
+                and connect with designers ready to share their knowledge.
+            </p>
+            <a href="#courses" class="shop-button">Explore Training</a>
+        </section>
+
+        <section class="academy-intro">
+            <p class="eyebrow">YOUR CREATIVE JOURNEY</p>
+            <h2>Learn from People Who Create.</h2>
+            <p>
+                Whether you are starting from scratch or improving your skills,
+                find training opportunities that help you grow in the fashion
+                industry.
+            </p>
+        </section>
+
+        <section class="academy-courses" id="courses">
+            <div class="section-heading">
+                <p class="eyebrow">TRAINING OPPORTUNITIES</p>
+                <h2>Find Your Next Learning Experience</h2>
+                <p>Explore sample training programs from fashion educators.</p>
+            </div>
+
+            <div class="academy-search">
+                <input
+                    type="search"
+                    id="courseSearch"
+                    placeholder="Search sewing, styling, pattern making..."
+                    aria-label="Search fashion training"
+                >
+            </div>
+
+            <div class="course-grid" id="courseGrid">
+
+                <article class="course-card">
+                    <img
+                        src="images/clothing (3).jpg"
+                        alt="Fashion sewing and Ankara design"
+                    >
+                    <div class="course-content">
+                        <p class="course-category">Sewing & Tailoring</p>
+                        <h3>Fashion Design Fundamentals</h3>
+                        <p>
+                            Learn sewing basics, garment construction,
+                            measurements, and finishing techniques.
+                        </p>
+                        <p class="course-provider">Provider: Creative Stitch Academy</p>
+                        <button
+                            class="apply-course-button"
+                            data-course="Fashion Design Fundamentals"
+                        >
+                            Apply for Training →
+                        </button>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img
+                        src="images/clothing (27).jpg"
+                        alt="Modern styling and outfit inspiration"
+                    >
+                    <div class="course-content">
+                        <p class="course-category">Fashion Styling</p>
+                        <h3>Personal Styling & Coordination</h3>
+                        <p>
+                            Explore colour combinations, outfit coordination,
+                            and how to create a distinctive style.
+                        </p>
+                        <p class="course-provider">Provider: Style Craft Studio</p>
+                        <button
+                            class="apply-course-button"
+                            data-course="Personal Styling & Coordination"
+                        >
+                            Apply for Training →
+                        </button>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img
+                        src="images/Bags (3).jpg"
+                        alt="Fashion accessories design"
+                    >
+                    <div class="course-content">
+                        <p class="course-category">Accessories</p>
+                        <h3>Accessories Design Workshop</h3>
+                        <p>
+                            Discover the creative process behind accessories
+                            and how to develop your own designs.
+                        </p>
+                        <p class="course-provider">Provider: The Creative Lab</p>
+                        <button
+                            class="apply-course-button"
+                            data-course="Accessories Design Workshop"
+                        >
+                            Apply for Training →
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+            <p id="noCoursesMessage" hidden>
+                No training programs match your search. Try another keyword.
+            </p>
+        </section>
+
+        <section class="academy-provider-cta">
+            <p class="eyebrow">ARE YOU A FASHION EDUCATOR?</p>
+            <h2>Share Your Skills with the Next Generation.</h2>
+            <p>
+                Showcase your training programs and connect with people
+                interested in learning fashion.
+            </p>
+            <a href="signup.html" class="shop-button">
+                Join as a Fashion Educator
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">StyleSphere<span>.</span></a>
+        <p>Where creativity meets personal style.</p>
+
+        <div class="footer-links">
+            <a href="shop.html">Shop</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>© 2026 StyleSphere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Cart | StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cart-page">
+
+    <header class="navbar">
+        <a href="dashboard.html" class="logo">StyleSphere<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="dashboard.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html" class="signup-button">Buy Now</a>
+        </div>
+    </header>
+
+    <main class="cart-main">
+        <div class="cart-heading">
+            <p class="eyebrow">YOUR SELECTION</p>
+            <h1>Shopping Cart</h1>
+            <p>Review your pieces before proceeding to checkout.</p>
+        </div>
+
+        <div class="cart-layout">
+
+            <section class="cart-items-section">
+                <div class="cart-items-header">
+                    <h2>Your Items</h2>
+                    <span id="cartItemCount">0 items</span>
+                </div>
+
+                <div id="cartItems" class="cart-items">
+                    <!-- JavaScript displays cart items here. -->
+                </div>
+
+                <div id="emptyCart" class="empty-cart" hidden>
+                    <div class="empty-cart-icon">♡</div>
+                    <h2>Your cart is waiting for something lovely.</h2>
+                    <p>You haven't added any fashion pieces yet.</p>
+                    <a href="shop.html" class="shop-button">
+                        Explore the Shop
+                    </a>
+                </div>
+
+                <a href="shop.html" class="continue-shopping">
+                    ← Continue Shopping
+                </a>
+            </section>
+
+            <aside class="cart-summary">
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="cartSubtotal">₦0.00</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Delivery</span>
+                    <span id="cartDelivery">Calculated later</span>
+                </div>
+
+                <div class="summary-row summary-total">
+                    <span>Total</span>
+                    <span id="cartTotal">₦0.00</span>
+                </div>
+
+                <button id="checkoutButton" class="checkout-button">
+                    Proceed to Checkout →
+                </button>
+
+                <p class="cart-note">
+                    Delivery charges and payment details will be confirmed
+                    during checkout.
+                </p>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="dashboard.html" class="logo">StyleSphere<span>.</span></a>
+        <p>Where creativity meets personal style.</p>
+
+        <div class="footer-links">
+            <a href="shop.html">Shop</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>© 2026 StyleSphere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

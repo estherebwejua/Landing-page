@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">StyleSphere<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="designers.html">Designers</a></li>
+                <li><a href="fashion-academy.html">Fashion Academy</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="cart.html" class="signup-button">My Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="shop-page">
+
+        <section class="shop-heading">
+            <p class="eyebrow">THE STYLESphere COLLECTION</p>
+            <h1>Find Your <span>Next Look.</span></h1>
+            <p>
+                Explore unique pieces from independent designers
+                and fashion brands.
+            </p>
+
+            <div class="shop-search">
+                <input
+                    type="search"
+                    id="productSearch"
+                    placeholder="Search clothes, shoes, bags..."
+                    aria-label="Search products"
+                >
+                <button type="button" id="searchButton">Search</button>
+            </div>
+        </section>
+
+        <section class="shop-content">
+
+            <div class="shop-toolbar">
+                <h2>Explore Products</h2>
+
+                <select id="categoryFilter" aria-label="Filter by category">
+                    <option value="all">All Categories</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="shoes">Shoes</option>
+                    <option value="bags">Bags</option>
+                    <option value="accessories">Accessories</option>
+                </select>
+            </div>
+
+            <div class="shop-grid" id="productGrid">
+
+                <article class="shop-product" data-category="clothing">
+                    <a href="product.html?item=ankara-dress" class="product-image">
+                        <img src="images/clothing (3).jpg"
+                             alt="Ankara dress" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Clothing</p>
+                        <h3>Ankara Statement Dress</h3>
+                        <p class="product-designer">By Heritage Stitches</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦35,000</span>
+                            <a href="product.html?item=ankara-dress"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="bags">
+                    <a href="product.html?item=designer-handbag" class="product-image">
+                        <img src="images/Bags (3).jpg"
+                             alt="Designer handbag" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Bags</p>
+                        <h3>Classic Designer Handbag</h3>
+                        <p class="product-designer">By Amanda Collections</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦28,000</span>
+                            <a href="product.html?item=designer-handbag"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="clothing">
+                    <a href="product.html?item=modern-outfit" class="product-image">
+                        <img src="images/clothing (5).jpg"
+                             alt="Modern fashion outfit" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Clothing</p>
+                        <h3>Modern Everyday Outfit</h3>
+                        <p class="product-designer">By The Style Edit</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦22,000</span>
+                            <a href="product.html?item=modern-outfit"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="accessories">
+                    <a href="product.html?item=statement-earrings" class="product-image">
+                        <img src="images/Accessories (11).jpg"
+                             alt="Statement earrings" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Accessories</p>
+                        <h3>Statement Earrings</h3>
+                        <p class="product-designer">By Golden Details</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦8,500</span>
+                            <a href="product.html?item=statement-earrings"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="bags">
+                    <a href="product.html?item=luxury-bag" class="product-image">
+                        <img src="images/Bags (2).jpg"
+                             alt="Luxury handbag collection" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Bags</p>
+                        <h3>Luxury Bag Inspiration</h3>
+                        <p class="product-designer">By Luxe Finds</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦45,000</span>
+                            <a href="product.html?item=luxury-bag"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="shoes">
+                    <a href="product.html?item=church-style" class="product-image">
+                        <img src="images/Shoes (4).jpg"
+                             alt="Church outfit style inspiration" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Shoes & Style</p>
+                        <h3>Classic Weekend Style</h3>
+                        <p class="product-designer">By Sunday Best</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦18,000</span>
+                            <a href="product.html?item=church-style"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="clothing">
+                    <a href="product.html?item=ankara-dress" class="product-image">
+                        <img src="images/clothing (9).jpg"
+                             alt="Ankara dress" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Clothing</p>
+                        <h3>Ankara Statement Dress</h3>
+                        <p class="product-designer">By Heritage Stitches</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦35,000</span>
+                            <a href="product.html?item=ankara-dress"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="clothing">
+                    <a href="product.html?item=ankara-dress" class="product-image">
+                        <img src="images/clothing (24).jpg"
+                             alt="Ankara dress" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Clothing</p>
+                        <h3>Ankara Statement Dress</h3>
+                        <p class="product-designer">By Heritage Stitches</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦35,000</span>
+                            <a href="product.html?item=ankara-dress"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="bags">
+                    <a href="product.html?item=designer-handbag" class="product-image">
+                        <img src="images/Bags (1).jpg"
+                             alt="Designer handbag" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Bags</p>
+                        <h3>Classic Designer Handbag</h3>
+                        <p class="product-designer">By Amanda Collections</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦28,000</span>
+                            <a href="product.html?item=designer-handbag"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="clothing">
+                    <a href="product.html?item=modern-outfit" class="product-image">
+                        <img src="images/clothing (12).jpg"
+                             alt="Modern fashion outfit" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Clothing</p>
+                        <h3>Modern Everyday Outfit</h3>
+                        <p class="product-designer">By The Style Edit</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦22,000</span>
+                            <a href="product.html?item=modern-outfit"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="accessories">
+                    <a href="product.html?item=statement-earrings" class="product-image">
+                        <img src="images/Accessories (10).jpg"
+                             alt="Statement earrings" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Accessories</p>
+                        <h3>Statement Earrings</h3>
+                        <p class="product-designer">By Golden Details</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦8,500</span>
+                            <a href="product.html?item=statement-earrings"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="shoes">
+                    <a href="product.html?item=luxury-bag" class="product-image">
+                        <img src="images/Shoes (8).jpg"
+                             alt="Luxury handbag collection" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Bags</p>
+                        <h3>Luxury Bag Inspiration</h3>
+                        <p class="product-designer">By Luxe Finds</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦45,000</span>
+                            <a href="product.html?item=luxury-sneaker"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="shoes">
+                    <a href="product.html?item=church-style" class="product-image">
+                        <img src="images/Shoes (9).jpg"
+                             alt="Church outfit style inspiration" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Shoes & Style</p>
+                        <h3>Classic Weekend Style</h3>
+                        <p class="product-designer">By Sunday Best</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦18,000</span>
+                            <a href="product.html?item=church-style"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="clothing">
+                    <a href="product.html?item=ankara-dress" class="product-image">
+                        <img src="images/clothing (7).jpg"
+                             alt="Ankara dress" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Clothing</p>
+                        <h3>Ankara Statement Dress</h3>
+                        <p class="product-designer">By Heritage Stitches</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦35,000</span>
+                            <a href="product.html?item=ankara-dress"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="shop-product" data-category="shoes">
+                    <a href="product.html?item=ankara-dress" class="product-image">
+                        <img src="images/shoes (5).jpg"
+                             alt="Ankara dress" loading="lazy">
+                    </a>
+                    <div class="product-details">
+                        <p class="product-category">Shoes</p>
+                        <h3>Comfortable and easy  wears</h3>
+                        <p class="product-designer">By Sunday Best</p>
+                        <div class="product-bottom">
+                            <span class="product-price">₦35,000</span>
+                            <a href="product.html?item=ankara-dress"
+                               class="product-link">View Item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p id="noProducts" class="no-products" hidden>
+                No products match your search. Try another keyword.
+            </p>
+
+        </section>
+
+        <section class="designer-banner">
+            <div>
+                <p class="eyebrow">YOUR BRAND DESERVES TO BE SEEN</p>
+                <h2>Are You a Fashion Designer?</h2>
+                <p>Showcase your work and introduce your brand to new customers.</p>
+            </div>
+            <a href="designers.html" class="shop-button">Meet Our Designers →</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">StyleSphere<span>.</span></a>
+        <p>Where fashion meets individuality.</p>
+
+        <div class="footer-links">
+            <a href="shop.html">Shop</a>
+            <a href="designers.html">Designers</a>
+            <a href="fashion-academy.html">Fashion Academy</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+
+        <p class="copyright">© 2026 StyleSphere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
