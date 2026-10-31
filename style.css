@@ -697,6 +697,7 @@ img {
 }
 
 .auth-button {
+    display: block;
     width: 100%;
     padding: 15px;
     background: #191713;
@@ -705,6 +706,8 @@ img {
     border-radius: 6px;
     font-size: 15px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     transition: background 0.3s;
 }
 
@@ -2390,4 +2393,3 @@ img {
         gap: 0;
     }
 }
-
