@@ -322,7 +322,7 @@ if (profileName) {
                 "Creating unique African-inspired fashion that combines culture, confidence, and contemporary style.",
             story:
                 "Amara Designs celebrates African prints through creative outfits designed for special occasions and everyday confidence.",
-            image: "images/Aesthetic Ankara dress.jpg"
+            image: "images/clothing (3).jpg"
         },
 
         amanda: {

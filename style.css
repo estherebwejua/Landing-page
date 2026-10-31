@@ -194,7 +194,7 @@ img {
 .hero-image {
     flex: 1;
     max-width: 440px;
-    height: 465px;
+    height: auto;
     position: relative;
     overflow: hidden;
     border-radius: 190px 190px 5px 5px;
@@ -876,9 +876,11 @@ img {
 .product-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    aspect-ratio: 10 / 20;
+    object-fit: contain;
     display: block;
-    transition: transform 0.4s;
+    
+
 }
 
 .shop-product:hover .product-image img {
@@ -1018,9 +1020,10 @@ img {
 
 .product-gallery img {
     width: 100%;
-    height: 540px;
+    height: auto;
     object-fit: cover;
     display: block;
+    aspect-ratio: 2 / 3;
 }
 
 .product-badge {
@@ -1530,7 +1533,7 @@ img {
 
 .profile-intro > img {
     width: 100%;
-    height: 430px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
